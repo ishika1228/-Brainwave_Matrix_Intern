@@ -1,1 +1,22 @@
-https://drive.google.com/file/d/1TP-z2Avk40LjkWflzo2bYFDJ8V0WSWtn/view?usp=sharing
+Dataset Information- This project uses a Twitter Sentiment Analysis dataset, publicly accessible via Google Drive.
+
+File Name:`twitter_sentiment_data.csv`  
+Download Link: Click here to access the dataset- (https://drive.google.com/file/d/1TP-z2Avk40LjkWflzo2bYFDJ8V0WSWtn/view?usp=sharing)
+
+Dataset Description:
+The dataset includes the following fields:
+- `tweet_id` – Unique tweet ID
+- `text` – Tweet content
+- `created_at` – Timestamp of the tweet
+- `user_location` – Location (if available)
+- `sentiment` – Label: Positive, Negative, or Neutral
+
+How to Use:
+1. Download the dataset from the link above.
+2. Save it in your local project folder under `/data`.
+3. Load it in your notebook using:
+
+python
+import pandas as pd
+df = pd.read_csv("data/twitter_sentiment_data.csv")
+
